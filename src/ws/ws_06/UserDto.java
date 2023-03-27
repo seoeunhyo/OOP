@@ -1,4 +1,4 @@
-package report_0324;
+package ws.ws_06;
 
 /**
  * 고객의 정보를 관리할 객체 

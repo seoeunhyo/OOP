@@ -1,4 +1,4 @@
-package report_0324;
+package ws.ws_06;
 
 public class LoanAccountDto extends AccountDto {
 
@@ -27,7 +27,11 @@ public class LoanAccountDto extends AccountDto {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.toString()+ ", mortagage = "+ this.getMortagage();
+		StringBuilder sb = new StringBuilder();
+		sb.append(super.toString());
+		sb.append(", mortagage = "+ this.getMortagage());
+		
+		return sb.toString();
 	}
 	
 

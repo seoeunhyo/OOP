@@ -1,4 +1,4 @@
-package report_0324;
+package ws.ws_05;
 
 public class SavingAccountDto extends AccountDto{
 
@@ -28,7 +28,11 @@ public class SavingAccountDto extends AccountDto{
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString()+", transferfee = "+ this.getTransferFee();
+		StringBuilder sb = new StringBuilder();
+		sb.append(super.toString());
+		sb.append(", transferfee = "+ this.getTransferFee());
+		
+		return sb.toString();
+		
 	}
 }

@@ -1,4 +1,4 @@
-package report_0324;
+package ws.ws_06;
 
 
 import java.util.ArrayList;
@@ -8,7 +8,8 @@ public class TestView {
 
 	static boolean flag = true;
 	static int input;
-	static BankService service = new BankService();
+	static BankService service = new BankServiceImpl();
+	
 	static ArrayList<AccountDto> accountList = service.getAccountList(100);
 	static ArrayList<UserDto> userList = service.getUserDetail(100);
 
@@ -67,10 +68,6 @@ public class TestView {
 			}
 			
 		}
-		
-
-
-		
 		
 
 

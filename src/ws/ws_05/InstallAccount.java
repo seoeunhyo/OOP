@@ -1,4 +1,4 @@
-package report_0324;
+package ws.ws_05;
 
 //정기예금계좌 
 
@@ -35,7 +35,14 @@ public class InstallAccount extends AccountDto{
 	
 	@Override
 	public String toString() {
-		return super.toString() + ", period = "+ this.getPeriod()+", amount = "+ this.getAmount();
+		StringBuilder sb = new StringBuilder();
+		sb.append(super.toString());
+		sb.append(", peroid = "+ this.getPeriod());
+		sb.append(", amount = " + this.getAmount());
+		
+		
+		return sb.toString();
+		
 	}
 	
 	
