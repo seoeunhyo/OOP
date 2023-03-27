@@ -1,4 +1,4 @@
-package ex0327_interfaceEx;
+package ex0327.interfaceEx;
 
 
 

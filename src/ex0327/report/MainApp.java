@@ -1,4 +1,4 @@
-package report_0327;
+package ex0327.report;
 
 import java.util.ArrayList;
 import java.util.List;

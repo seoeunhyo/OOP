@@ -1,4 +1,4 @@
-package report_0327;
+package ex0327.report;
 
 public class Elec {
 	private String code;

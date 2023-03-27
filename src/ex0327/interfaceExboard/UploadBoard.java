@@ -1,4 +1,4 @@
-package ex0327_interfaceEx.board;
+package ex0327.interfaceExboard;
 
 
 
