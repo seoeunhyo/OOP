@@ -1,6 +1,6 @@
 package ex0327.report;
 
-public class Audio extends Elec implements ElecFunction{
+public class Audio extends Elec implements   ElecFunction{
 	private int volumn;
 	
 	public Audio() {}

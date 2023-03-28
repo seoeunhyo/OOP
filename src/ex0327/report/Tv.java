@@ -1,6 +1,6 @@
 package ex0327.report;
 
-public class Tv extends Elec implements ElecFunction {
+public class Tv extends Elec implements  ElecFunction {
 	private int chnnel;
 	
 	

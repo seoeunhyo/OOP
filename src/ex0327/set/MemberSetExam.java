@@ -1,6 +1,7 @@
 package ex0327.set;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class MemberSetExam {
@@ -21,12 +22,16 @@ public class MemberSetExam {
 		
 		set.add(new Member("서은효", 25, "경기"));
 		System.out.println("\n---------------------------------");
-		
+		set.add(new Member("서은gl", 25, "경기"));
 		//set.add(new Member("이순신", 35, "충북"));
 		
 		System.out.println("저장될 객체의 개수: "+ set.size());
 	}
 	
+
+	
+
+
 	public static void main(String[] args) {
 		new MemberSetExam();
 	}
